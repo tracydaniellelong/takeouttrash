@@ -7,3 +7,8 @@ def bag(tie)
   play tie
   sleep 1
 end
+
+def empty(done)
+  sample :drum_bass_soft, rate: done
+  sleep 1
+end
