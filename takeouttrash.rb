@@ -12,3 +12,9 @@ def empty(done)
   sample :drum_bass_soft, rate: done
   sleep 1
 end
+
+5.times do
+  full(5)
+  bag(sample :ambi_lunar_land)
+  empty(3)
+end
